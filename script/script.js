@@ -148,6 +148,7 @@ btnTheme.forEach(j => {
   }
 });
 
+
 themeMenu.forEach(j => {
   j.addEventListener('click', e => {
     delete localStorage.choiseTheme;   
@@ -163,7 +164,13 @@ themeMenu.forEach(j => {
 
 //save preferr theme
 let preferrTheme = localStorage.getItem('choiseTheme');
+
 if (localStorage.getItem('choiseTheme') !== undefined) {
   theme.classList.remove('theme');
   theme.classList.add(preferrTheme);
 };
+
+if(theme.classList.contains('null')){
+    theme.classList.remove('null');
+    theme.classList.add('theme');
+}
