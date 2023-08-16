@@ -54,9 +54,9 @@ let dataSliderTab = {
         '<p>3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, eligendi totam. Id, nulla exercitationem accusantium at unde quidem ducimus, nobis nesciunt reiciendis necessitatibus esse perspiciatis eius?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi nventore? </p>'
     ],
     tabImgs: [
-        "./img/city_01.png",
-        "./img/city_02.jpg",
-        "./img/city_04.jpg"
+        "../src/img/city_01.png",
+        "../src/img/city_02.jpg",
+        "../src/img/city_04.jpg"
     ]
 };
 
